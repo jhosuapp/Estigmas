@@ -5235,6 +5235,19 @@ input[type="range"]::-moz-range-track {
 .cifraBox__down--mt {
   margin-top: 30px;
 }
+.img__lenguaje{
+  position: absolute;
+  top: calc(50% - 6px);
+}
+.nav__list__link.language{
+  color: #fff;
+}
+.parrafo__home--center{
+  text-align: center;
+  font-weight: lighter;
+  color: #000;
+  margin-bottom: 15px;
+}
 @media only screen and (max-width: 480px) {
   .cifraBox__down {
     flex-wrap: wrap;

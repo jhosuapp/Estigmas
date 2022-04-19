@@ -62,3 +62,19 @@ function desplegar(padre) {
         padre.classList.remove('menuDesplegable');
     }
 }
+
+
+window.addEventListener('load', () =>{
+    var getLenguajeIcon = document.querySelector('.language');
+    var createImgLenguaje = document.createElement('img');
+    createImgLenguaje.classList.add('img__lenguaje');
+    getLenguajeIcon.appendChild(createImgLenguaje);
+
+
+    if(getLenguajeIcon.textContent == "🇪🇸"){
+        createImgLenguaje.setAttribute('src', '../img/en.png');
+    }else{
+        createImgLenguaje.setAttribute('src', '../img/es.png');
+    }
+})
+
