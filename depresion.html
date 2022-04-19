@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Derrotemos los Estigmas | Depresión </title>
+    <meta name="description" content="La depresión es una enfermedad mental que afecta a más de 300 millones de personas, estás a tiempo para recibir tratamiento.">
+    <link rel="stylesheet" href="css/libraries/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- STYLES -->
+	<!-- <link rel="stylesheet" href="css/libraries/"> -->
+	<link rel="stylesheet" href="css/main.css?v=1">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+        // Note: you will need to get a mapsApiKey for your project.
+        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'Popularity'],
+          ['CR', "Costa Rica: 216,608 / 4,7%"],
+          ['HN', "Honduras: 308,862 / 4,0%"],
+          ['JM', "Jamaica: 134,054 / 4,8%"],
+          ['PA', "Panamá: 62,293 / 4,4%"],
+          ['DO', "República Dominicana: 464,164 / 4,7%"],
+          ['SV', "El Salvador: 464,164 / 4,7%"],
+          ['GT', "Guatemala: 255,032 / 4,4%"],
+          ['CO', "Colombia: 2,177,280 / 4,7%"],
+          ['CU', "Cuba: 605,879 / 5,5%"],
+          ['BR', "Brasil: 11,548,577 / 5,8%"],
+          ['MX', "México: 4,936,614 / 4,2%"],
+          ['NI', "Nicaragua: 238,161 / 4,2%"],
+          ['UY', "Uruguay: 158,005 / 5,0%"],
+          ['CL', "Chile: 844,253 / 5,0%"]
+        ]);
+
+        let widthMQ = window.matchMedia("(max-width: 767px)").matches ? 300 : 556;
+
+        // Draw First Chart
+        var geochart = new google.visualization.GeoChart(
+          document.getElementById('visualization'));
+        geochart.draw(data, {width: widthMQ, height: 347, region: '013', resolution: 'countries', backgroundColor: 'white', datalessRegionColor: '#ffe1cd', defaultColor: '#f27021'});
+
+        // Draw Second Chart
+        var geochart2 = new google.visualization.GeoChart(
+          document.getElementById('visualization2'));
+        geochart2.draw(data, {width: widthMQ, height: 347, region: '005', resolution: 'countries', backgroundColor: 'white', datalessRegionColor: '#ffe1cd', defaultColor: '#f27021'});
+
+        var geochart3 = new google.visualization.GeoChart(
+          document.getElementById('visualization3'));
+        geochart3.draw(data, {width: widthMQ, height: 347, region: '029', resolution: 'countries', backgroundColor: 'white', datalessRegionColor: '#ffe1cd', defaultColor: '#f27021',});
+      }
+    </script>
+    <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-175839710-2');
+    </script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5SH3L72');</script>
+    <!-- End Google Tag Manager -->
+
+<style>html{display:none;}</style>
+
+<script>
+
+        if (self == top) {
+
+                document.documentElement.style.display = 'block';
+
+        } else {
+
+                top.location = self.location;
+
+        }
+
+</script>
+
+</head>
+
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SH3L72"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+    <!-- LOADER -->
+	<div class="loader">
+		<div class="loader__container">
+			<svg class="loader__content" viewBox="25 25 50 50">
+				<circle class="loader__circular" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+			</svg>
+		</div>
+	</div>
+	<!-- END LOADER -->
+
+    <!-- GENERAL CONTAINER -->
+	<div class="container container--esqui">
+		<!-- HEADER -->
+
+		<header class="header">
+                <div class="header-top">
+                    <div class="header-top__box">
+                        <p class="header-top__text">Síguenos en:</p>
+                        <div class="social">
+							<a id="Lface" class="social__item">
+								<img src="img/facebook-2.png" alt="" class="socialbtns__img">
+							</a>
+							<a id="Ligm" class="social__item" >
+								<img src="img/ig.png" alt="" class="socialbtns__img">
+							</a>
+					    </div>
+                    </div>
+                </div>
+                <div class="header__container">
+                    <!-- LOGO -->
+                    <a href="./index.html" class="logo">
+                        <picture>
+                            <source media="(min-width: 1650px)" srcset="img/Logo.svg">
+                            <img src="img/Logo.svg" alt="" class="logo__img logo__img--mobile">
+                        </picture>
+
+                    </a>
+                    <!-- END LOGO -->
+                    <!-- NAV -->
+                    <nav class="nav">
+
+                        <!-- NAV LIST -->
+                        <ul class="nav__list">
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./index.html" class="nav__list__link inicio">Inicio <svg class="w-6 h-6 nav__list__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./index.html#estadoMental">Un buen estado mental</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./index.html#enfermedadesMentales">Las enfermedades mentales</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./index.html#noEstasSolo">Recuerda que no estas solo</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./depresion.html" class="nav__list__link depresion colb strong">Depresión <svg class="w-6 h-6 nav__list__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#laDepresion">La depresión no es ser aburrido</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#dondeProviene">¿De dónde proviene la depresión?</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#descubreSintomas">Descubre los síntomas</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#tiposDepresion">Tipos de depresión</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#depresionResistente">Depresión Resistente al Tratamiento</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#depresionCifras">La depresión en cifras</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./esquizofrenia.html" class="nav__list__link esquizofrenia">Esquizofrenia <svg class="w-6 h-6 nav__list__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./esquizofrenia.html#noEsEstarLoco">La esquizofrenia no es estar loca</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./esquizofrenia.html#dondeProvieneLaEsquizofrenia">¿De dónde proviene la esquizofrenia?</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./esquizofrenia.html#descubreLosSintomasEsquizofrenia">Descubre los síntomas</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./esquizofrenia.html#tiposDeEsquizofrenia">Tipos de esquizofrenia</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./cifras-de-salud-mental.html" class="nav__list__link cifra">Cifras de Salud Mental <svg class="w-6 h-6 nav__list__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./cifras-de-salud-mental.html#salud_mental">Lo que conocemos sobre salud mental</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./cifras-de-salud-mental.html#queTanPreocupadoEstamos">¿Qué tan preocupado estamos?</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./cifras-de-salud-mental.html#quePodemosHacer">¿Qué podemos hacer al respecto?</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./cifras-de-salud-mental.html#viviendoConPerjuicios">Viviendo con perjucios</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./no-estas-solo.html" class="nav__list__link noEstasSolo">No estás solo <svg class="w-6 h-6 nav__list__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./no-estas-solo.html#noEstasSolo">Recuerda que no estás solo</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./no-estas-solo.html#estamosComprometidos">Estamos comprometidos con tu salud mental</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./no-estas-solo.html#construyeTuBotiquin">Construye tu botiquín emocional en tiempos de pandemia</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM FLAG -->
+                            <li class="nav__list__item">
+                                <a class="nav__list__link language" href="./en/depression.html">&#x1f1ea;&#x1f1f8;</a>
+                            </li>
+                            <!-- END NAV LIST ITEM FLAG-->
+                        </ul>
+                        <!-- END NAV LIST -->
+                    </nav>
+                    <!-- END NAV -->
+                    <!-- HAMBURGER -->
+                    <a href="#" class="hamburgerBtn btnHamburDesktop" id="hamburgerBtn">
+                        <span class="hamburgerBtn__line linea1 hamburgerBtn__line--white"></span>
+                        <span class="hamburgerBtn__line hamburgerBtn__line--white"></span>
+                        <span class="hamburgerBtn__line linea2 hamburgerBtn__line--white"></span>
+                    </a>
+                    <!-- END HAMBURGER -->
+                </div>
+            </header>
+            <!-- HEADER -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="word">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <h1 class="modal__title">Neurotransmisores cerebrales:</h1>
+                    <p class="modal__text">Son sustancias químicas que las células nerviosas utilizan para comunicarse entre sí.</p>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="word1">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <h1 class="modal__title">Traumatismo Psicológico:</h1>
+                    <p class="modal__text">Es el resultado de un exceso de intensidad emocional que quiebra el funcionamiento mental de un sujeto adulto.</p>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="word2">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <h1 class="modal__title">Manía: </h1>
+                    <p class="modal__text">Es una alteración psicológica caracterizada por la presencia de un estado de ánimo excesivamente eufórico, expansivo y concurrente con un elevado nivel de energía.</p>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Referencia</h1>
+                        <p class="modal__text">Sitio Web Organización Mundial de la Salud. (2020). Depresión. Recuperado de <span class="collO">https://www.who.int/es/news-room/fact-sheets/detail/depression</span></p>
+                        <p class="modal__textMed">Usted está siendo redirigido a otro sitio web. Si está de acuerdo, haga clic en aceptar.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Aceptar</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference1">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Referencia</h1>
+                        <p class="modal__text">Janssen Global Versión Web. (2020). Cuatro cosas que ahora sabemos sobre la depresión resistente al tratamiento. Recuperado de <span class="collO">https://www.janssen.com/es/neuroscience/four-things-we-know-about-treatment-resistant-depression</span></p>
+                        <p class="modal__textMed">Usted está siendo redirigido a otro sitio web. Si está de acuerdo, haga clic en aceptar.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Aceptar</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference2">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Referencia</h1>
+                        <p class="modal__text">Sitio Web Organización Mundial de la Salud. (2020). Depresión. Recuperado de <span class="collO">https://www.who.int/es/news-room/fact-sheets/detail/depression</span></p>
+                        <p class="modal__textMed">Usted está siendo redirigido a otro sitio web. Si está de acuerdo, haga clic en aceptar.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Aceptar</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference3">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Referencia</h1>
+                        <p class="modal__text">Johnson & Johnson. (2020). Janssen Seeks Expanded Use Of  SPRAVATO. Recuperado de <span class="collO">https://www.jnj.com/janssen-seeks-expanded-use-of-spravato-esketamine-nasal-spray-in-europe-as-a-treatment-for-depressive-symptoms-in-adults-with-major-depressive-disorder-who-have-current-suicidal-ideation-with-intent</span></p>
+                        <p class="modal__textMed">Usted está siendo redirigido a otro sitio web. Si está de acuerdo, haga clic en aceptar.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Aceptar</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference4">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Referencia</h1>
+                        <p class="modal__text">National Institute of Mental Health. (2018). Depression. Recuperado de <span class="collO">https://www.nimh.nih.gov/health/topics/depression/index.shtml</span></p>
+                        <p class="modal__textMed">Usted está siendo redirigido a otro sitio web. Si está de acuerdo, haga clic en aceptar.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Aceptar</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference5">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Referencia</h1>
+                        <p class="modal__text">Janssen Global Versión Web. (2020). Cuatro cosas que ahora sabemos sobre la depresión resistente al tratamiento. Recuperado de <span class="collO">https://www.janssen.com/es/neuroscience/four-things-we-know-about-treatment-resistant-depression</span></p>
+                        <p class="modal__textMed">Usted está siendo redirigido a otro sitio web. Si está de acuerdo, haga clic en aceptar.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Aceptar</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference6">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Referencia</h1>
+                        <p class="modal__text">Johnson & Johnson. (2020). Janssen Seeks Expanded Use Of  SPRAVATO. Recuperado de <span class="collO">https://www.jnj.com/janssen-seeks-expanded-use-of-spravato-esketamine-nasal-spray-in-europe-as-a-treatment-for-depressive-symptoms-in-adults-with-major-depressive-disorder-who-have-current-suicidal-ideation-with-intent</span></p>
+                        <p class="modal__textMed">Usted está siendo redirigido a otro sitio web. Si está de acuerdo, haga clic en aceptar.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Aceptar</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference7">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Referencia</h1>
+                        <p class="modal__text">Organización Panamericana de Salud. (2017). Depresión y otros trastornos mentales. Recuperado de: <span class="collO">https://iris.paho.org/bitstream/handle/10665.2/34006/PAHONMH17005-spa.pdf?sequence=1&isAllowed=y</span></p>
+                        <p class="modal__textMed">Usted está siendo redirigido a otro sitio web. Si está de acuerdo, haga clic en aceptar.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Aceptar</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+		<div class="container--limit">
+
+            <div class="depreBox">
+
+                <div class="depreBox__container">
+                    <div class="depreBox__box mb30">
+                        <div class="depreBox__container__left">
+                            <div class="containerpen3">
+                                <div class="comparison2">
+                                    <figure class="figure2">
+                                    <div class="handle"></div>
+                                    <div class="divisor2"></div>
+                                    </figure>
+                                    <input type="range" min="0" max="100" value="50" class="slider">
+                                </div>
+                            </div>
+                            <!-- <img src="img/depre.jpg" class="depreBox__img"> -->
+                            <p class="depreBox__title" id="laDepresion">
+                                La depresión no es ser aburrido
+                            </p>
+                            <p class="depreBox__text">
+                                La depresión es una enfermedad mental que afecta a más de 300 millones de personas y es la causa #1 de discapacidad alrededor del mundo, según la <a class="sub collO" data-modal="reference">Organización Mundial de la Salud.</a>
+                            </p>
+                            <p class="depreBox__text">
+                                La determinan múltiples factores que afectan a una persona en diferentes aspectos de su vida, desde su estabilidad emocional hasta su aspecto físico.
+                            </p>
+                            <p class="depreBox__text mb0">
+                                Se trata de un <b class="depreBox__text collO">trastorno mental frecuente caracterizado por un sentimiento de tristeza</b> que se interpone en el desarrollo de actividades habituales como el trabajo o las relaciones sociales.
+                            </p>
+                        </div>
+                        <!-- <div class="depreBox__container__right">
+                            <p class="depreBox__title">
+                                La depresión no es ser aburrido
+                            </p>
+                            <p class="depreBox__text">
+                                La depresión es una enfermedad mental que afecta a más de 300 millones de personas y es la causa #1 de discapacidad alrededor del mundo, según la <a class="sub collO" data-modal="reference">Organización Mundial de la Salud.</a>
+                            </p>
+                            <p class="depreBox__text">
+                                La determinan múltiples factores que afectan a una persona en diferentes aspectos de su vida, desde su estabilidad emocional hasta su aspecto físico.
+                            </p>
+                            <p class="depreBox__text mb0">
+                                Se trata de un <b class="depreBox__text collO">trastorno mental frecuente caracterizado por un sentimiento de tristeza</b> que se interpone en el desarrollo de actividades habituales como el trabajo o las relaciones sociales.
+                            </p>
+                        </div> -->
+                    </div>
+                    <p class="depreBox__text collO mb70">
+                        Si padeces depresión o crees tener alguno de los síntomas, estás a tiempo para recibir tratamiento, consulta a un profesional de la salud para más información.
+                    </p>
+                    <p class="depreBox__title colO" id="dondeProviene">
+                    ¿De dónde proviene la depresión?
+                    </p>
+                    <p class="depreBox__text tac">
+                    La depresión es el resultado de interacciones complejas entre factores sociales, psicológicos, y biológicos.
+                    </p>
+                    <div class="depreBox__content">
+                        <div class="depreBox__content__left">
+                            <div class="depreBox__bg">
+                                <img src="img/cerebro.png" class="depreBox__img">
+                            </div>
+                            <p class="depreBox__content__title">
+                                Origen biológico:
+                            </p>
+                            <p class="depreBox__content__text">
+                                El origen biológico de la depresión continúa siendo un misterio, sin embargo, una de las teorías más populares es que <b class="depreBox__content__text collO">es causada por alteraciones en los <a class="depreBox__content__text collO" data-modal="word"><b class="sub"> neurotransmisores cerebrales*</b></a></b>, como la serotonina y noradrenalina. Estos neurotransmisores están asociados a los sentimientos de felicidad y bienestar, tal como lo afirma <a class="sub collO" data-modal="reference1">Janssen.</a>
+                            </p>
+                        </div>
+                        <div class="depreBox__divider"></div>
+                        <div class="depreBox__content__right">
+                            <div class="depreBox__bg">
+                                <img src="img/cerebro2.png" class="depreBox__img">
+                            </div>
+                            <p class="depreBox__content__title colllO">
+                                Otros factores:
+                            </p>
+                            <p class="depreBox__content__text">
+                                <b class="depreBox__content__text colllO">Existen otros factores de nivel social y psicológico</b> que tienden a que las personas sean más propensas a sufrir depresión. Por ejemplo, las personas que han pasado por circunstancias de vida adversas, como la muerte de alguien cercano, el desempleo u otros <a class="depreBox__content__text colllO" data-modal="word1"><b class="sub"> traumatismos psicológicos*</b></a>, así lo afirma la <a class="sub colllO" data-modal="reference2">OMS.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="depreBox__title" id="descubreSintomas">
+                        Descubre los síntomas
+                    </p>
+                    <p class="depreBox__text ">
+                        Las personas que sufren depresión experimentan múltiples síntomas, como el bajo estado de ánimo o la pérdida de interés al realizar ciertas actividades.  <b class="depreBox__text collO">Para diagnosticarse como depresión, la persona debe presentar 5 o más síntomas por un periodo de al menos 2 semanas.</b>
+                    </p>
+                    <div class="depreBox__gallery">
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint1.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Ansiedad</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Se trata de la condición de una persona que experimenta una conmoción, intranquilidad, nerviosismo o preocupación. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint2.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Agitación psicomotora</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Es la forma extrema de la inquietud o hiperactividad, caracterizada por el aumento de los movimientos no dirigidos a la consecución de un fin determinado.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint3.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Dificultad para concentrarse</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">También para recordar detalles o tomar decisiones. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint4.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Sentimientos de culpa inexplicables</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text"> Estas personas pueden sentirse desamparadas o que no valen nada. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint5.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Tristeza o estado de ánimo depresivo persistente</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Este es uno de los síntomas más representativos de la depresión y usualmente se interpone con las actividades diarias. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint6.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Cambio significativo del apetito y alteraciones del sueño</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Comer más o menos de lo usual o tener dificultades para dormirse o levantarse (insomnio o hipersomnia)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint7.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Escasa energía o fatiga</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Es la sensación de cansancio extremo, agotamiento o debilidad que puede hacer que las tareas cotidianas se tornen más difíciles.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint8.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Pérdida de interés</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Disminución de placer en actividades que normalmente se disfrutaban.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="img/Gallery_Depre/Foto_Dep_Sint9.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Pensamientos o actos suicidas</p>
+                                        <img src="img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Pensar en el suicidio o en hacerse daño.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="depreBox__text">
+                    Antes de diagnosticar un cuadro de depresión, es importante pensar en otras posibles explicaciones para los síntomas como:
+                    </p>
+                    <div class="depreBox__post" >
+                        <a class="depreBox__span" data-modal="word2"></a>
+                        <img src="img/post-its.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="depreBox__tipos">
+            <div class="container--limit">
+                <div class="depreBox__container">
+                    <p class="depreBox__title w100 tac" id="tiposDepresion">
+                        Tipos de depresión
+                    </p>
+                    <div class="depreBox__box">
+                    <div class="depreBox__tipos__left">
+                        <div id="depreImg" class="carousel carousel--depreImg owl-carousel h100">
+                            <div class="carousel--depreImg__item h100">
+                                <img src="img/Tipos_Depre/Foto_Dep.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="img/Tipos_Depre/Foto_Depp.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="img/Tipos_Depre/Foto_Deppp.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="img/Tipos_Depre/Foto_Depppp.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="img/Tipos_Depre/Foto_Deppppp.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="img/Tipos_Depre/Foto_Depppppp.png" class="depreBox__tipos__img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depreBox__tipos__right">
+                        <div id="depreText" class="carousel carousel--depre owl-carousel owl-theme animate ">
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Trastorno depresivo mayor
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    El trastorno depresivo mayor es la condición más recurrente dentro de todos los tipos de depresión.
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Se trata de un desorden de ánimo muy común alrededor del mundo, sin dejar de ser considerado una enfermedad seria y grave. Se caracteriza por la aparición recurrente de un episodio depresivo mayor, que dura al menos 2 semanas y presenta cambios en el afecto y la cognición.
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Los pacientes con TDM tienen 20 veces más riesgo de suicidio que el resto de la población, así lo establece <a class="sub collO" data-modal="reference3">Janssen.</a>
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Trastorno depresivo recurrente (distimia)
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Se trata de un trastorno que dura al menos 2 años. Las personas diagnosticadas pueden sufrir episodios depresivos mayores, pero también presentar etapas en las que los síntomas son menos severos.
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Depresión resistente al tratamiento
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Se presenta en pacientes con trastorno depresivo mayor, cuando este no ha respondido a las dosis adecuadas de dos antidepresivos diferentes suministrados por un período de tiempo suficiente, que suele ser de seis semanas.
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Depresión post parto
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Las mujeres con este trastorno sufren de depresión mayor durante el embarazo o después del parto. Se caracteriza por la aparición de sentimientos de extrema tristeza, ansiedad y exhaustividad que interfieren con las actividades diarias de las madres y el cuidado de sus bebés.
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Depresión psicótica
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Esta forma de depresión ocurre cuando la persona sufre de episodios depresivos severos, pero, además, presenta alguna forma de psicosis, como la aparición de creencias falsas (delirios) o la visión de cosas que los demás no pueden ver (alucinaciones).
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Trastorno bipolar depresivo
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Es diferente a la depresión, pero hace parte de esta lista porque una persona que sufre de este trastorno experimenta episodios de muy bajo ánimo, lo cual se cataloga como una depresión mayor.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+                    <p class="depreBox__text mb70 tac">
+                        Fuente de tipos de depresión: <a class="sub collO" data-modal="reference4">National Institute of Mental Health</a>
+                    </p>
+                    <p class="depreBox__title colO tac w100" id="depresionResistente">
+                        Depresión Resistente al Tratamiento
+                    </p>
+                    <p class="depreBox__text">
+                        Uno de cada tres pacientes con TDM son resistentes al tratamiento. La depresión denominada <b class="depreBox__text colO">Depresión resistente al tratamiento</b> o <b class="depreBox__text colO">DRT</b> se presenta en los pacientes cuando los medicamentos estándar suelen brindar un alivio mínimo o nulo, ya que sus cuerpos no responden a las dosis adecuadas suministradas durante los períodos de tiempo suficiente (6 semanas), tal como lo establece <a class="sub colO" data-modal="reference5">Janssen.</a>
+                    </p>
+                    <p class="depreBox__text">
+                        Lo anterior presenta una <b class="depreBox__text colO">carga preocupante</b> para las personas que padecen este tipo de depresión y que requieren de una solución urgente para su enfermedad.
+                    </p>
+                    <div class="depreBox__box mb0">
+                        <div class="depreBox__tipos__left">
+                            <img src="img/depre4.jpg" class="depreBox__tipos__img">
+                        </div>
+                        <div class="depreBox__tipos__right--drt">
+                            <p class="depreBox__tipos__title colO pb20">
+                                Sí hay esperanza para los pacientes con DRT
+                            </p>
+                            <!-- MINI TAB -->
+                            <section class="drtBox">
+                                <nav class="drtBox__nav">
+                                    <img src="img/Calendario.png" class="drtBox__nav__img">
+                                    <img src="img/Lupa.png" class="drtBox__nav__img">
+                                    <img src="img/pills.png" class="drtBox__nav__img ">
+                                    <img src="img/Cabeza.png" class="drtBox__nav__img ">
+                                </nav>
+                                <div class="drtBox__container">
+                                    <article class="drtBox__content">
+                                        <p class="drtBox__text">Los tratamientos disponibles para tratar los síntomas depresivos <b class="drtBox__text colO">se tardan entre 4 y 6 semanas para hacer su efecto completo.</b> </p>
+                                    </article>
+                                    <article class="drtBox__content">
+                                        <p class="drtBox__text"> Se trata de una necesidad que existe hace 30 años, según <a class="sub colO" data-modal="reference6">Janssen.</a></p>
+                                    </article>
+                                    <article class="drtBox__content">
+                                        <p class="drtBox__text">Existen nuevos modelos de administración de tratamientos y fórmulas innovadoras que atacan distintas vías del cerebro y reducen los síntomas depresivos en tan solo 24 horas.</p>
+                                    </article>
+                                    <article class="drtBox__content">
+                                        <p class="drtBox__text pb0">Esto sostiene una <b class="drtBox__text colO">gran esperanza para todos los pacientes con depresión resistente al tratamiento,</b> quienes tenían muy pocas opciones para el control y alivio de su sintomatología.</p>
+                                    </article>
+                                </div>
+                            </section>
+                            <!-- END MINI TAB -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="depreBox">
+            <div class="container--limit">
+                <div class="depreBox__container">
+                    <p class="depreBox__title w100 tac" id="depresionCifras">
+                    La depresión en cifras
+                    </p>
+                    <p class="depreBox__text">
+                        Interactúa con la gráfica y descubre sobre la depresión en América.
+                    </p>
+                    <p class="depreBox__text">
+                        <strong>País/ Casos totales de depresión/ Porcentaje de la población</strong>
+                    </p>
+                    <div class="carousel carousel--map owl-carousel">
+                        <div class="carousel--map__item">
+                            <h1 class="carousel--map__item__title">América Central</h1>
+                            <div id="visualization" class="carousel--map__item__map"></div>
+                        </div>
+                        <div class="carousel--map__item">
+                            <h1 class="carousel--map__item__title">América del Caribe </h1>
+                             <div id="visualization3" class="carousel--map__item__map"></div>
+                        </div>
+                        <div class="carousel--map__item">
+                            <h1 class="carousel--map__item__title">América del Sur </h1>
+                             <div id="visualization2" class="carousel--map__item__map"></div>
+                        </div>
+
+                    </div>
+
+                    <p class="depreBox__text mb70 tac">
+                        Fuente: <a class="sub collO" data-modal="reference7">Organización Panamericana de la Salud.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="footer__container">
+				<nav class="footer__nav">
+					<!-- NAV LIST -->
+					<ul class="footer__top">
+						<!-- NAV LIST ITEM -->
+						<li class="footer__top__item">
+							<a href="terminos.html" class="footer__top__link">Política de privacidad</a>
+						</li>
+						<!-- END NAV LIST ITEM -->
+						<!-- NAV LIST ITEM -->
+						<li class="footer__top__item">
+							<a href="#" class="footer__top__link">|</a>
+						</li>
+						<!-- END NAV LIST ITEM -->
+						<!-- NAV LIST ITEM -->
+						<li class="footer__top__item">
+							<a href="aviso.html" class="footer__top__link">Aviso Legal</a>
+						</li>
+						<!-- END NAV LIST ITEM -->
+
+					</ul>
+					<!-- END NAV LIST -->
+				</nav>
+				<div class="footer__bottom">
+						<a href="#" class="footer__bottom__logo">
+							<img src="img/logofoo.png" alt="" class="footer__bottom__logo__img">
+						</a>
+						<a href="#" class="footer__bottom__logo">
+							<img src="img/logofoo2.png" alt="" class="footer__bottom__logo__img">
+						</a>
+						<div >
+							<p class="footer__bottom__text">Todo medicamento posee efectos secundarios. No se auto medique. Consulte con su médico. Si los síntomas persisten por más de 3 días consulte al médico. No exceder su consumo. Para reporte de eventos adversos o quejas de calidad puede dirigirlos a la siguiente dirección: infojanssen@janpa.jnj.com. Para información de producto, reporte de eventos adversos y quejas de calidad contáctenos a: Centroamérica y Caribe: infojanssen@janpa.jnj.com y/o, Costa Rica: 8000521607, El Salvador: 8006987, Guatemala: 18008350399, Nicaragua:18002260464, Panamá: 8000521419, República Dominicana: 18887600103, Venezuela: infojanssen@janve.jnj.com y/o 08001005742. www.janssen.com/centralamericaandthecaribbean Código del material: SUB-025356. Fecha de última revisión: Octubre 2020.</p>
+						</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+	</div>
+	<!-- END GENERAL CONTAINER -->
+
+	<!-- SCRITPS -->
+	<!-- <script src="js/libraries/ie11-custom-properties.js"></script> -->
+    <!-- <script src="js/libraries/"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libraries/owl.carousel.min.js"></script>
+    <script src="js/app2.js?v=1"></script>
+	<script src="js/app.js?v=1"></script>
+
+</body>
+</html>

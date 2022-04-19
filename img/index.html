@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script language="javascript">
+            function startUp()
+            {
+                if (top.location != self.location) {
+                    top.location = self.location.href;
+                }
+            }
+        </script>
+    </head>
+    <body onLoad=startUp()> 
+    </body>
+</html>

@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Defeating Stigmas | Depression </title>
+    <meta name="description" content="Depression is a mental illness that affects more than 300 million people, you are in time to receive treatment.">
+    <link rel="stylesheet" href="../css/libraries/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- STYLES -->
+	<!-- <link rel="stylesheet" href="css/libraries/"> -->
+	<link rel="stylesheet" href="../css/main.css?v=1">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+        // Note: you will need to get a mapsApiKey for your project.
+        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'Popularity'],
+          ['CR', "Costa Rica: 216,608 / 4,7%"],
+          ['HN', "Honduras: 308,862 / 4,0%"],
+          ['JM', "Jamaica: 134,054 / 4,8%"],
+          ['PA', "Panamá: 62,293 / 4,4%"],
+          ['DO', "República Dominicana: 464,164 / 4,7%"],
+          ['SV', "El Salvador: 464,164 / 4,7%"],
+          ['GT', "Guatemala: 255,032 / 4,4%"],
+          ['CO', "Colombia: 2,177,280 / 4,7%"],
+          ['CU', "Cuba: 605,879 / 5,5%"],
+          ['BR', "Brasil: 11,548,577 / 5,8%"],
+          ['MX', "México: 4,936,614 / 4,2%"],
+          ['NI', "Nicaragua: 238,161 / 4,2%"],
+          ['UY', "Uruguay: 158,005 / 5,0%"],
+          ['CL', "Chile: 844,253 / 5,0%"]
+        ]);
+
+        let widthMQ = window.matchMedia("(max-width: 767px)").matches ? 300 : 556;
+
+        // Draw First Chart
+        var geochart = new google.visualization.GeoChart(
+          document.getElementById('visualization'));
+        geochart.draw(data, {width: widthMQ, height: 347, region: '013', resolution: 'countries', backgroundColor: 'white', datalessRegionColor: '#ffe1cd', defaultColor: '#f27021'});
+
+        // Draw Second Chart
+        var geochart2 = new google.visualization.GeoChart(
+          document.getElementById('visualization2'));
+        geochart2.draw(data, {width: widthMQ, height: 347, region: '005', resolution: 'countries', backgroundColor: 'white', datalessRegionColor: '#ffe1cd', defaultColor: '#f27021'});
+
+        var geochart3 = new google.visualization.GeoChart(
+          document.getElementById('visualization3'));
+        geochart3.draw(data, {width: widthMQ, height: 347, region: '029', resolution: 'countries', backgroundColor: 'white', datalessRegionColor: '#ffe1cd', defaultColor: '#f27021',});
+      }
+    </script>
+    <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-175839710-2');
+    </script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5SH3L72');</script>
+    <!-- End Google Tag Manager -->
+
+<style>html{display:none;}</style>
+
+<script>
+
+        if (self == top) {
+
+                document.documentElement.style.display = 'block';
+
+        } else {
+
+                top.location = self.location;
+
+        }
+
+</script>
+
+</head>
+
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SH3L72"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+    <!-- LOADER -->
+	<div class="loader">
+		<div class="loader__container">
+			<svg class="loader__content" viewBox="25 25 50 50">
+				<circle class="loader__circular" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+			</svg>
+		</div>
+	</div>
+	<!-- END LOADER -->
+
+    <!-- GENERAL CONTAINER -->
+	<div class="container container--esqui">
+		<!-- HEADER -->
+
+		<header class="header">
+                <div class="header-top">
+                    <div class="header-top__box">
+                        <p class="header-top__text">Follow us:</p>
+                        <div class="social">
+							<a id="Lface" class="social__item">
+								<img src="../img/facebook-2.png" alt="" class="socialbtns__img">
+							</a>
+							<a id="Ligm" class="social__item" >
+								<img src="../img/ig.png" alt="" class="socialbtns__img">
+							</a>
+					    </div>
+                    </div>
+                </div>
+                <div class="header__container">
+                    <!-- LOGO -->
+                    <a href="./index.html" class="logo">
+                        <picture>
+                            <source media="(min-width: 1650px)" srcset="../img/Logo.svg">
+                            <img src="../img/Logo.svg" alt="" class="logo__img logo__img--mobile">
+                        </picture>
+
+                    </a>
+                    <!-- END LOGO -->
+                    <!-- NAV -->
+                    <nav class="nav">
+
+                        <!-- NAV LIST -->
+                        <ul class="nav__list">
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./index.html" class="nav__list__link inicio">Home<svg class="w-6 h-6 nav__list__icon" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                    </svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./index.html#mentalState">Good mental state</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./index.html#mentalDiseases">Mental illnesses</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./index.html#youAreNotAlone">Remember you are not alone</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="#" class="nav__list__link depresion colb strong">Depression<svg class="w-6 h-6 nav__list__icon"
+                                        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                    </svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#depression">Depression is not being boring</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#comeFrom">Where does depression come from?</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#discoverSymptoms">Discover the symptoms</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#typesOfDepression">Types of depression</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#depresionResistant">Treatment-resistant
+                                            depression</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="#depressionFigures">Depression in figures</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./schizophrenia.html" class="nav__list__link esquizofrenia">Schizophrenia <svg
+                                        class="w-6 h-6 nav__list__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                    </svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./schizophrenia.html">Schizophrenia is not madness</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./schizophrenia.html#whereSchizophreniaComesFrom">Where does
+                                            schizophrenia come from?</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./schizophrenia.html#discoverSymptomsSchizophrenia">Discover the
+                                            symptoms</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./schizophrenia.html#typesOfSchizophrenia">Types of
+                                            schizophrenia</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./mental-health-figures.html" class="nav__list__link cifra">Mental health figures <svg
+                                        class="w-6 h-6 nav__list__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                    </svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./mental-health-figures.html#mental_health">What we know about
+                                            mental health</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./mental-health-figures.html#HowConcernedWeAre">How concerned are
+                                            we?</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./mental-health-figures.html#whatWeCanDo">What can we do about
+                                            it?</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./mental-health-figures.html#livingWithPerjuices">Living with
+                                            damages</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <a href="./you-are-not-alone.html" class="nav__list__link youAreNotAlone">You are not alone <svg
+                                        class="w-6 h-6 nav__list__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                    </svg></a>
+                                <!-- SUBNAV LIST ITEM -->
+                                <ul class="nav__list__submenu">
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./you-are-not-alone.html#youAreNotAlone">Remember that you are not
+                                            alone</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./you-are-not-alone.html#weAreCommitted">We are committed to
+                                            your mental health</a>
+                                    </li>
+                                    <li class="nav__list__contenedor">
+                                        <a class="nav__list__subLink" href="./you-are-not-alone.html#buildYourFirstAidKit">Build your emotional
+                                            first aid kit in times of pandemics</a>
+                                    </li>
+                                </ul>
+                                <!-- END SUBNAV LIST ITEM -->
+                            </li>
+                            <!-- NAV LIST ITEM -->
+                            <li class="nav__list__item">
+                                <!-- NAV LIST LINK FLAG -->
+                                <a class="nav__list__link language" href="../depresion.html">&#x1f1fa;&#x1f1f8;</a>
+                            </li>
+                            <!-- END NAV LIST ITEM -->
+                        </ul>
+                        <!-- END NAV LIST -->
+                        </nav>
+                        <!-- END NAV -->
+                    <!-- HAMBURGER -->
+                    <a href="#" class="hamburgerBtn btnHamburDesktop" id="hamburgerBtn">
+                        <span class="hamburgerBtn__line linea1 hamburgerBtn__line--white"></span>
+                        <span class="hamburgerBtn__line hamburgerBtn__line--white"></span>
+                        <span class="hamburgerBtn__line linea2 hamburgerBtn__line--white"></span>
+                    </a>
+                    <!-- END HAMBURGER -->
+                </div>
+            </header>
+            <!-- HEADER -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="word">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <h1 class="modal__title">Brain neurotransmitters:</h1>
+                    <p class="modal__text">These are chemicals that nerve cells use to communicate with each other.</p>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="word1">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <h1 class="modal__title">Psychological trauma:</h1>
+                    <p class="modal__text">It is the result of an excess of emotional intensity that breaks the mental functioning of an adult subject.</p>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="word2">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <h1 class="modal__title">Mania:</h1>
+                    <p class="modal__text">It is a psychological disorder characterized by the presence of an excessively euphoric, expansive mood, concurrent with a high level of energy.</p>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Reference</h1>
+                        <p class="modal__text">World Health Organization Web site. (2020). Depression. Retrieved from <span class="collO">https://www.who.int/es/news-room/fact-sheets/detail/depression</span></p>
+                        <p class="modal__textMed">You are being redirected to another website. If you agree, click on accept.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Accept</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference1">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Reference</h1>
+                        <p class="modal__text">Janssen Global Web Version. (2020). Four things we now know about treatment-resistant depression. Retrieved from<span class="collO">https://www.janssen.com/es/neuroscience/four-things-we-know-about-treatment-resistant-depression</span></p>
+                        <p class="modal__textMed">You are being redirected to another website. If you agree, click on accept.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Accept</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference2">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Reference</h1>
+                        <p class="modal__text">World Health Organization Web site. (2020). Depression. Retrieved from <span class="collO">https://www.who.int/es/news-room/fact-sheets/detail/depression</span></p>
+                        <p class="modal__textMed">You are being redirected to another website. If you agree, click on accept.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Accept</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference3">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Reference</h1>
+                        <p class="modal__text">Johnson & Johnson. (2020). Janssen Seeks Expanded Use Of  SPRAVATO. Retrieved from <span class="collO">https://www.jnj.com/janssen-seeks-expanded-use-of-spravato-esketamine-nasal-spray-in-europe-as-a-treatment-for-depressive-symptoms-in-adults-with-major-depressive-disorder-who-have-current-suicidal-ideation-with-intent</span></p>
+                        <p class="modal__textMed">You are being redirected to another website. If you agree, click on accept.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Accept</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference4">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Reference</h1>
+                        <p class="modal__text">National Institute of Mental Health. (2018). Depression. Retrieved from <span class="collO">https://www.nimh.nih.gov/health/topics/depression/index.shtml</span></p>
+                        <p class="modal__textMed">You are being redirected to another website. If you agree, click on accept.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Accept</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference5">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Reference</h1>
+                        <p class="modal__text">Janssen Global Versión Web. (2020). Four things we now know about treatment-resistant depression. Retrieved from<span class="collO">https://www.janssen.com/es/neuroscience/four-things-we-know-about-treatment-resistant-depression</span></p>
+                        <p class="modal__textMed">You are being redirected to another website. If you agree, click on accept.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Accept</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference6">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Reference</h1>
+                        <p class="modal__text">Johnson & Johnson. (2020). Janssen Seeks Expanded Use Of  SPRAVATO. Retrieved from <span class="collO">https://www.jnj.com/janssen-seeks-expanded-use-of-spravato-esketamine-nasal-spray-in-europe-as-a-treatment-for-depressive-symptoms-in-adults-with-major-depressive-disorder-who-have-current-suicidal-ideation-with-intent</span></p>
+                        <p class="modal__textMed">You are being redirected to another website. If you agree, click on accept.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Accept</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+            <!-- MODAL -->
+            <section class="modal hide" data-modal="reference7">
+                <div class="modal__container">
+                    <span class="modal__close"></span>
+                    <!-- MODAL CONTENT -->
+                    <div class="modal__ref">
+                        <h1 class="modal__title">Reference</h1>
+                        <p class="modal__text">Pan American Health Organization. (2017). Depression and other mental disorders. Retrieved from: <span class="collO">https://iris.paho.org/bitstream/handle/10665.2/34006/PAHONMH17005-spa.pdf?sequence=1&isAllowed=y</span></p>
+                        <p class="modal__textMed">You are being redirected to another website. If you agree, click on accept.</p>
+                        <a id="refHome1" class="btn btn--modal subH">Accept</a>
+                    </div>
+                    <!-- END MODAL CONTENT -->
+                </div>
+            </section>
+            <!-- END MODAL -->
+		<div class="container--limit">
+
+            <div class="depreBox">
+
+                <div class="depreBox__container">
+                    <div class="depreBox__box mb30">
+                        <div class="depreBox__container__left">
+                            <div class="containerpen3">
+                                <div class="comparison2">
+                                    <figure class="figure2">
+                                    <div class="handle"></div>
+                                    <div class="divisor2"></div>
+                                    </figure>
+                                    <input type="range" min="0" max="100" value="50" class="slider">
+                                </div>
+                            </div>
+                            <!-- <img src="../img/depre.jpg" class="depreBox__img"> -->
+                            <p class="depreBox__title" id="depression">
+                                Depression is not being boring
+                            </p>
+                            <p class="depreBox__text">
+                                Depression is a mental illness that affects more than 300 million people and is the #1 cause of disability worldwide, according to the <a class="sub collO" data-modal="reference">World Health Organization</a>.
+                            </p>
+                            <p class="depreBox__text">
+                                It is determined by multiple factors that affect a person in different aspects of his or her life, from emotional stability to physical appearance.
+                            </p>
+                            <p class="depreBox__text mb0">
+                                It is a <b class="depreBox__text collO">common mental disorder characterized by a feeling of sadness</b> that interferes with the development of usual activities such as work or social relationships.
+                            </p>
+                        </div>
+                        <!-- <div class="depreBox__container__right">
+                            <p class="depreBox__title">
+                                Depression is not being boring
+                            </p>
+                            <p class="depreBox__text">
+                                Depression is a mental illness that affects more than 300 million people and is the #1 cause of disability worldwide, according to the <a class="sub collO" data-modal="reference">World Health Organization</a>.
+                            </p>
+                            <p class="depreBox__text">
+It is determined by multiple factors that affect a person in different aspects of his or her life, from emotional stability to physical appearance.</p>
+                            <p class="depreBox__text mb0">
+                                It is a <b class="depreBox__text collO">common mental disorder characterized by a feeling of sadness</b> that interferes with the development of usual activities such as work or social relationships.
+                            </p>
+                        </div> -->
+                    </div>
+                    <p class="depreBox__text collO mb70">
+                        If you suffer from depression or think you have any of the symptoms, you are in time to receive treatment, consult a health professional for more information.
+                    </p>
+                    <p class="depreBox__title colO" id="comeFrom">
+                        Where does depression come from?
+                    </p>
+                    <p class="depreBox__text tac">
+                        Depression is the result of complex interactions between social, psychological, and biological factors.
+                    </p>
+                    <div class="depreBox__content">
+                        <div class="depreBox__content__left">
+                            <div class="depreBox__bg">
+                                <img src="../img/cerebro.png" class="depreBox__img">
+                            </div>
+                            <p class="depreBox__content__title">
+                                Biological origin:
+                            </p>
+                            <p class="depreBox__content__text">
+                                The biological origin of depression remains a mystery, however, one of the most popular theories is that <b class="depreBox__content__text collO">is caused by alterations in the <a class="depreBox__content__text collO" data-modal="word"><b class="sub"> brain neurotransmitters*</b></a></b>, such as serotonin and noradrenaline. These neurotransmitters are associated with feelings of happiness and wellbeing, as stated by <a class="sub collO" data-modal="reference1">Janssen.</a>
+                            </p>
+                        </div>
+                        <div class="depreBox__divider"></div>
+                        <div class="depreBox__content__right">
+                            <div class="depreBox__bg">
+                                <img src="../img/cerebro2.png" class="depreBox__img">
+                            </div>
+                            <p class="depreBox__content__title colllO">
+                                Other factors:
+                            </p>
+                            <p class="depreBox__content__text">
+                                <b class="depreBox__content__text colllO">There are other social and psychological factors</b> that tend to make people more prone to depression. For example, people who have gone through adverse life circumstances,
+                                such as the death of someone close to them, unemployment, or other<a class="depreBox__content__text colllO" data-modal="word1"><b class="sub"> psychological trauma*</b></a>, so states the <a class="sub colllO" data-modal="reference2">WHO.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="depreBox__title" id="discoverSymptoms">
+                        Discover the symptoms
+                    </p>
+                    <p class="depreBox__text ">
+                        People suffering from depression experience multiple symptoms, such as low mood or loss of interest in certain
+                        activities.  <b class="depreBox__text collO">To be diagnosed as depression, the person must have 5 or more symptoms for a period of at least 2 weeks.</b>
+                    </p>
+                    <div class="depreBox__gallery">
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint1.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Anxiety</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">This is the condition of a person experiencing shock, uneasiness, nervousness or worry.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint2.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Psychomotor agitation</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">It is the extreme form of restlessness or hyperactivity, characterized by increased movements not directed to the
+                                    achievement of a specific goal.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint3.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Difficulty concentrating</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Also to remember details or make decisions. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint4.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Unexplained feelings of guilt</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text"> These people may feel helpless or worthless. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint5.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Persistent sadness or depressive moods</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">This is one of the most representative symptoms of depression and usually interferes with daily activities. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint6.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Significant change in appetite and sleep disturbances</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Eating more or less than usual or having difficulty falling asleep or waking up (insomnia or hypersomnia)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint7.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Low energy or fatigue</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">It is the feeling of extreme tiredness, exhaustion or weakness that can make everyday tasks more difficult.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint8.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Loss of interest</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Decreased pleasure in activities normally enjoyed.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="depreBox__gallery__scene">
+                            <div class="depreBox__gallery__item">
+                                <div class="depreBox__gallery__front">
+                                    <picture class="depreBox__gallery__bg">
+                                        <img src="../img/Gallery_Depre/Foto_Dep_Sint9.png" class="depreBox__gallery__bg__img">
+                                    </picture>
+                                    <div class="depreBox__gallery__content">
+                                        <p class="depreBox__gallery__bg__text">Suicidal thoughts or acts</p>
+                                        <img src="../img/nextGal.png" class="depreBox__gallery__bg__next">
+                                    </div>
+                                </div>
+                                <div class="depreBox__gallery__back">
+                                    <span class="depreBox__gallery__close"></span>
+                                    <p class="depreBox__gallery__text">Thinking about suicide or hurting oneself.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="depreBox__text">
+                    Before diagnosing depression, it is important to think about other possible explanations for symptoms such as:
+                    </p>
+                    <div class="depreBox__post" >
+                        <a class="depreBox__span" data-modal="word2"></a>
+                        <img src="../img/post-its.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="depreBox__tipos">
+            <div class="container--limit">
+                <div class="depreBox__container">
+                    <p class="depreBox__title w100 tac" id="typesOfDepression">
+                        Types of depression
+                    </p>
+                    <div class="depreBox__box">
+                    <div class="depreBox__tipos__left">
+                        <div id="depreImg" class="carousel carousel--depreImg owl-carousel h100">
+                            <div class="carousel--depreImg__item h100">
+                                <img src="../img/Tipos_Depre/Foto_Dep.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="../img/Tipos_Depre/Foto_Depp.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="../img/Tipos_Depre/Foto_Deppp.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="../img/Tipos_Depre/Foto_Depppp.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="../img/Tipos_Depre/Foto_Deppppp.png" class="depreBox__tipos__img">
+                            </div>
+                            <div class="carousel--depreImg__item h100">
+                                <img src="../img/Tipos_Depre/Foto_Depppppp.png" class="depreBox__tipos__img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depreBox__tipos__right">
+                        <div id="depreText" class="carousel carousel--depre owl-carousel owl-theme animate ">
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Major depressive disorder
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Major depressive disorder is the most recurrent condition among all types of depression.</p>
+                                <p class="depreBox__tipos__text">
+                                    It is a very common mood disorder around the world, while still being considered a serious and serious illness. It is
+                                    characterized by the recurrent occurrence of a major depressive episode, lasting at least 2 weeks and presenting changes
+                                    in affect and cognition.
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Patients with MDD are 20 times more at risk of suicide than the rest of the population, according to <a class="sub collO" data-modal="reference3">Janssen.</a>
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Recurrent depressive disorder (dysthymia)
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    It is a disorder that lasts at least 2 years. Diagnosed persons may suffer major depressive episodes, but also present
+                                    stages in which symptoms are less severe.
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Treatment-resistant depression
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    It occurs in patients with major depressive disorder when they have not responded to adequate doses of two different
+                                    antidepressants given for a sufficient period of time, usually six weeks.
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Postpartum depression
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    Women with this disorder suffer from major depression during pregnancy or after childbirth. It is characterized by the
+                                    onset of feelings of extreme sadness, anxiety and exhaustion that interfere with mothers' daily activities and the care
+                                    of their babies.
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Psychotic depression
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    This form of depression occurs when the person suffers from severe depressive episodes, but, in addition, presents some
+                                    form of psychosis, such as the appearance of false beliefs (delusions) or seeing things that others cannot see
+                                    (hallucinations).
+                                </p>
+                            </div>
+                            <div class="carousel--depre__item animate__fadeOutDownBig">
+                                <p class="depreBox__tipos__title">
+                                    Bipolar depressive disorder
+                                </p>
+                                <p class="depreBox__tipos__text">
+                                    It is different from depression, but it is part of this list because a person suffering from this disorder experiences
+                                    episodes of very low mood, which is categorized as major depression.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+                    <p class="depreBox__text mb70 tac">
+                        Source of types of depression: <a class="sub collO" data-modal="reference4">National Institute of Mental Health</a>
+                    </p>
+                    <p class="depreBox__title colO tac w100" id="depresionResistant">
+                        Treatment Resistant Depression
+                    </p>
+                    <p class="depreBox__text">
+                        One in three patients with MDD are treatment resistant. Depression referred to as <b
+                            class="depreBox__text colO">Treatment-resistant depression</b> or <b class="depreBox__text colO">DRT</b> occurs in
+                        patients when standard medications often provide minimal or no relief, as their bodies do not respond to adequate doses
+                        given for sufficient periods of time (6 weeks), as stated by <a class="sub colO" data-modal="reference5">Janssen.</a>
+                    </p>
+                    <p class="depreBox__text">
+                        The above presents a <b class="depreBox__text colO">concerning burden</b> for people suffering from this type of
+                        depression who require an urgent solution to their illness.
+                    </p>
+                    <div class="depreBox__box mb0">
+                        <div class="depreBox__tipos__left">
+                            <img src="../img/depre4.jpg" class="depreBox__tipos__img">
+                        </div>
+                        <div class="depreBox__tipos__right--drt">
+                            <p class="depreBox__tipos__title colO pb20">
+                                There is hope for DRT patients
+                            </p>
+                            <!-- MINI TAB -->
+                            <section class="drtBox">
+                                <nav class="drtBox__nav">
+                                    <img src="../img/Calendario.png" class="drtBox__nav__img">
+                                    <img src="../img/Lupa.png" class="drtBox__nav__img">
+                                    <img src="../img/pills.png" class="drtBox__nav__img ">
+                                    <img src="../img/Cabeza.png" class="drtBox__nav__img ">
+                                </nav>
+                                <div class="drtBox__container">
+                                    <article class="drtBox__content">
+                                        <p class="drtBox__text">Treatments available to treat depressive symptoms<b class="drtBox__text colO"> it takes between 4 and 6 weeks to take full effect.</b> </p>
+                                    </article>
+                                    <article class="drtBox__content">
+                                        <p class="drtBox__text"> This is a need that has existed for 30 years, according to <a class="sub colO" data-modal="reference6">Janssen.</a></p>
+                                    </article>
+                                    <article class="drtBox__content">
+                                        <p class="drtBox__text">There are new treatment delivery models and innovative formulations that target different pathways in the brain and
+                                        reduce depressive symptoms in as little as 24 hours.</p>
+                                    </article>
+                                    <article class="drtBox__content">
+                                        <p class="drtBox__text pb0">This holds out a <b class="drtBox__text colO">great hope for all patients with treatment-resistant depression,</b> who
+                                        had very few options for the control and relief of their symptomatology.</p>
+                                    </article>
+                                </div>
+                            </section>
+                            <!-- END MINI TAB -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="depreBox">
+            <div class="container--limit">
+                <div class="depreBox__container">
+                    <p class="depreBox__title w100 tac" id="depressionFigures">
+                        Depression in figures
+                    </p>
+                    <p class="depreBox__text">
+                        Interact with the chart and find out about the depression in America.
+                    </p>
+                    <p class="depreBox__text">
+                        <strong>Country / Total cases of depression / Percentage of the population</strong>
+                    </p>
+                    <div class="carousel carousel--map owl-carousel">
+                        <div class="carousel--map__item">
+                            <h1 class="carousel--map__item__title">Central America</h1>
+                            <div id="visualization" class="carousel--map__item__map"></div>
+                        </div>
+                        <div class="carousel--map__item">
+                            <h1 class="carousel--map__item__title">Caribbean America</h1>
+                             <div id="visualization3" class="carousel--map__item__map"></div>
+                        </div>
+                        <div class="carousel--map__item">
+                            <h1 class="carousel--map__item__title">South America </h1>
+                             <div id="visualization2" class="carousel--map__item__map"></div>
+                        </div>
+
+                    </div>
+
+                    <p class="depreBox__text mb70 tac">
+                        Source: <a class="sub collO" data-modal="reference7">Pan American Health Organization.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+                <!-- FOOTER -->
+                <footer class="footer">
+                    <div class="footer__container">
+                        <nav class="footer__nav">
+                            <!-- NAV LIST -->
+                            <ul class="footer__top">
+                                <!-- NAV LIST ITEM -->
+                                <li class="footer__top__item">
+                                    <a href="./terms.html" class="footer__top__link">Privacy Policy</a>
+                                </li>
+                                <!-- END NAV LIST ITEM -->
+                                <!-- NAV LIST ITEM -->
+                                <li class="footer__top__item">
+                                    <a href="#" class="footer__top__link">|</a>
+                                </li>
+                                <!-- END NAV LIST ITEM -->
+                                <!-- NAV LIST ITEM -->
+                                <li class="./footer__top__item">
+                                    <a href="./legal-notice.html" class="footer__top__link">Legal Notice</a>
+                                </li>
+                                <!-- END NAV LIST ITEM -->
+                
+                            </ul>
+                            <!-- END NAV LIST -->
+                        </nav>
+                        <div class="footer__bottom">
+                            <a href="#" class="footer__bottom__logo">
+                                <img src="../img/logofoo.png" alt="" class="footer__bottom__logo__img">
+                            </a>
+                            <a href="#" class="footer__bottom__logo">
+                                <img src="../img/logofoo2.png" alt="" class="footer__bottom__logo__img">
+                            </a>
+                            <div>
+                                <p class="footer__bottom__text">All medications have side effects. Do not self-medicate. Consult your
+                                    doctor. If symptoms persist for more than 3 days, consult your doctor. Do not exceed your intake.
+                                    For adverse event reports or quality complaints, please direct them to the following address:
+                                    infojanssen@janpa.jnj.com. For product information, adverse event reports and quality complaints
+                                    contact us at: Central America and Caribbean: infojanssen@janpa.jnj.com and/or, Costa Rica:
+                                    8000521607, El Salvador: 8006987, Guatemala: 18008350399, Nicaragua:18002260464, Panama: 8000521419,
+                                    Dominican Republic: 18887600103, Venezuela: infojanssen@janve.jnj.com and/or 08001005742.
+                                    www.janssen.com/centralamericaandthecaribbean Material code: SUB-025356. Date of last revision:
+                                    October 2020.</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+		<!-- END FOOTER -->
+	</div>
+	<!-- END GENERAL CONTAINER -->
+
+	<!-- SCRITPS -->
+	<!-- <script src="../js/libraries/ie11-custom-properties.js"></script> -->
+    <!-- <script src="../js/libraries/"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/libraries/owl.carousel.min.js"></script>
+    <script src="../js/app2.js?v=1"></script>
+	<script src="../js/app.js?v=1"></script>
+
+</body>
+</html>
