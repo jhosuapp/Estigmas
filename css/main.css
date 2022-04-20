@@ -861,9 +861,14 @@ a[href^="tel"] {
   padding: 20px 0;
   text-align: justify;
   line-height: 35px;
+  -moz-text-align-last: left;
+  text-align-last: left;
+  font-family: karbon-medium, arial, sans-serif;
+}
+.homeBoxTrans__text--center{
+  text-align: center;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: karbon-medium, arial, sans-serif;
 }
 @media only screen and (max-width: 1370px) {
   .homeBoxTrans__text {
@@ -1312,6 +1317,10 @@ a[href^="tel"] {
   font-family: karbon-medium, arial, sans-serif;
   margin-bottom: 40px;
   line-height: 39px;
+}
+.esquiBox__text{
+  text-align: left !important;
+  text-align-last: left !important;
 }
 @media only screen and (max-width: 1370px) {
   .esquiBox__text {
@@ -5248,6 +5257,15 @@ input[type="range"]::-moz-range-track {
   color: #000;
   margin-bottom: 15px;
 }
+.image__discovery{
+  margin-top: 60px;
+}
+.image__cover{
+  object-fit: cover;
+}
+.image__transform--rotate{
+  transform: rotate(-8deg);
+}
 @media only screen and (max-width: 480px) {
   .cifraBox__down {
     flex-wrap: wrap;
@@ -5378,5 +5396,20 @@ input[type="range"]::-moz-range-track {
 @media only screen and (max-width: 767px) {
   .footer__bottom__text {
     text-align: center;
+  }
+}
+
+
+.flex__for--items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.item__depresion{
+  flex: 1;
+}
+@media only screen and (max-width: 767px) {
+  .flex__for--items {
+    flex-direction: column;
   }
 }
