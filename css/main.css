@@ -999,7 +999,7 @@ a[href^="tel"] {
 }
 @media only screen and (max-width: 360px) {
   .homeBoxEnf__post-it {
-    padding: 0 80px;
+    padding: 0;
   }
 }
 .homeBoxEnf__box {
@@ -5434,4 +5434,46 @@ input[type="range"]::-moz-range-track {
   .soloBox__title--margin{
     margin: 0;
   }
+  .image__discovery{
+    margin-top: 30px;
+  }
+  .depreBox__tipos__title {
+    margin-top: 20px;
+  }
+  .depreBox__title--top{
+    padding-top: 45px;
+  }
+  .depreBox__tipos--top{
+    padding-top: 45px;
+  }
+  .depreBox__text--bottom{
+    margin-bottom: 0;
+  }
+  .esquiBox__text{
+    text-align: justify !important;
+  }
+  .esquiBox__text--justify{
+    text-align: center !important;
+    text-align-last: center !important;
+    margin-bottom: 0;
+  }
+  .esquiBox__tipos--top{
+    padding-top: 45px;
+  }
+  .esquiBox__title--center{
+    text-align: left;
+  }
+  .bigBox__title--margin{
+    margin-top: 0;
+  }
+  .soloBox__content__title--bottom{
+    margin-bottom: 30px;
+  }
+  /* .nav__list__contenedor{
+    background: transparent;
+  }
+  .nav__list__contenedor a{
+    color: #000;
+    font-size: 17px;
+  }  */
 }
