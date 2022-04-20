@@ -301,6 +301,10 @@ a[href^="tel"] {
   width: 100%;
   font-size: 3.125rem;
 }
+.bigBox__title--center{
+  text-align: center !important;
+  text-align-last: center;
+}
 @media only screen and (max-width: 1370px) {
   .bigBox__title,
   .soloBox__title {
@@ -1156,6 +1160,7 @@ a[href^="tel"] {
   text-align: center;
   font-family: karbon-medium, arial, sans-serif;
 }
+
 .soloBox__content {
   display: flex;
   position: relative;
@@ -5408,8 +5413,25 @@ input[type="range"]::-moz-range-track {
 .item__depresion{
   flex: 1;
 }
+.soloBox__text--left{
+  text-align: left ;
+  text-align-last: left ;
+}
+.soloBox__title--margin{
+  margin: 60px 0;
+}
+.hamburgerBtn.btnHamburDesktop.active{
+  position: fixed;
+}
 @media only screen and (max-width: 767px) {
   .flex__for--items {
     flex-direction: column;
+  }
+  .soloBox__text--left{
+    text-align: justify ;
+    text-align-last: center ;
+  }
+  .soloBox__title--margin{
+    margin: 0;
   }
 }
