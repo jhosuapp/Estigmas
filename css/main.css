@@ -5246,6 +5246,9 @@ input[type="range"]::-moz-range-track {
   align-items: center;
   justify-content: space-between;
 }
+.cifraBox__down{
+  gap: 20px;
+}
 .cifraBox__down--mt {
   margin-top: 30px;
 }
